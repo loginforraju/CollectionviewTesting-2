@@ -27,7 +27,7 @@ class CustomCollectionViewCellVC: UICollectionViewCell {
         textLabelOne.textAlignment = .center
         textLabelOne.allowsDefaultTighteningForTruncation = true
         contentView.addSubview(textLabelOne)
-        
+        //data
         // Image view
         imageView = UIImageView(frame: CGRect(x: 10, y: textLabelOne.frame.size.height  , width: (frame.size.width) - 20, height: ((frame.size.height/2 )-2)  ))
         imageView.contentMode = UIViewContentMode.scaleAspectFit
